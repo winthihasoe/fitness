@@ -10,6 +10,9 @@
         <meta property="og:url" content="{{ url()->current() }}">
 
         <meta property="og:type" content="website">
+        <!-- website favicon  -->
+        <link rel="icon" href="{{ asset('/images/favicon.png') }}" type="image/png"/>
+
         @viteReactRefresh
         @vite('resources/js/app.jsx')
         @inertiaHead
